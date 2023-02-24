@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 990px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: none;
+  }
+
+  .header__container {
+    flex-direction: column;
+  }
+
+  .anime__container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .anime-info {
+    flex-direction: column;
+  }
+
+  .anime-info__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .photos-slider__container-photo {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+}

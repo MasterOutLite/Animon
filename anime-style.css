@@ -1,0 +1,221 @@
+.anime__container {
+  margin: 15px 0;
+  padding: 15px 15px;
+  box-shadow: 0 0 2px rgb(210, 193, 178);
+  border-radius: 2px;
+  background-color: #c2af9f2d;
+}
+
+.anime-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 15px 0;
+}
+
+.anime-header__name {
+  user-select: text;
+}
+
+.group-name {
+  padding: 5px;
+}
+
+.anime-info__img {
+  width: 250px;
+  height: 350px;
+
+  padding: 10px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 5px;
+  width: 100%;
+}
+
+.video-info__rating {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.video-info__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 5px;
+
+  padding: 20px 0;
+}
+
+.v-i_f {
+  flex: 0 0 33%;
+  max-width: 33%;
+}
+
+.v-i_s {
+  flex: 0 0 66%;
+  max-width: 63%;
+}
+
+.video-info__text-container {
+  position: relative;
+  font-size: 18px;
+}
+
+.video-info__text {
+  font-size: 18px;
+}
+
+.video-info__link {
+  text-decoration: none;
+  color: #d95b39;
+}
+
+.video-info__link:hover {
+  text-decoration: underline;
+}
+
+.video-info__link-add-info:hover {
+  content: "12";
+}
+
+/* group begin video-info__add-info */
+.video-info__add-info {
+  position: relative;
+  display: none;
+  flex-wrap: wrap;
+  gap: 5px 5px;
+
+  width: 200px;
+  padding: 5px;
+  background-color: #c2af9f2d;
+  border-radius: 5px;
+  color: #000;
+}
+
+.video-info__add-info_active {
+  display: flex;
+}
+
+.v-i__a-i_f {
+  flex: 0 0 33%;
+  max-width: 33%;
+  text-decoration: none;
+}
+
+.v-i__a-i_s {
+  flex: 0 0 63%;
+  max-width: 63%;
+}
+/* group end video-info__add-info */
+
+.anime-description {
+  padding: 5px 0;
+
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+
+  --max-lines: 4;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--max-lines);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.similar-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  padding: 20px 0;
+}
+
+.similar-videos__link {
+  text-decoration: none;
+  color: #d95b39;
+}
+
+.similar-videos__link:hover {
+  text-decoration: underline;
+}
+
+/* slider */
+
+.photos-slider {
+  padding: 15px 0;
+}
+
+.photos-slider__title {
+  display: block;
+  margin-bottom: 20px;
+}
+.photos-slider__container-photo {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+  overflow: hidden;
+}
+
+.photos-slider__img {
+  max-height: 150px;
+}
+
+/* video-player */
+
+.video-player__background {
+  padding: 15px 0;
+}
+.video-player {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  background: #0d0e35;
+}
+
+.video-player__container-series {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  padding: 5px;
+}
+
+.video-player__select-series {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  width: 40px;
+
+  border: 0;
+  border-radius: 3px;
+  background-color: #16ca1f;
+  color: #fff;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.video__br {
+  height: 10px;
+  background: #1217a2;
+  border-radius: 6px;
+}
+
+.video-player__video {
+  padding: 5px;
+}
+
+.video-player__video-temp {
+  width: 100%;
+}
