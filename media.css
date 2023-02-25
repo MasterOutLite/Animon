@@ -3,9 +3,15 @@
     max-width: 970px;
   }
 }
+
 @media (max-width: 990px) {
   .container {
     max-width: 750px;
+  }
+
+  .recommended-view__container {
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -35,7 +41,24 @@
   .photos-slider__container-photo {
     flex-direction: column;
   }
+
+  /* normal */
+
+  .user-comment__container {
+    gap: 10px;
+  }
+  .user-comment__avatar {
+    --avatar-radius: 60px;
+  }
+
+  .anime-content__header {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 600px) {
+  .user-comment__avatar {
+    --avatar-radius: 40px;
+  }
 }

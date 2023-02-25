@@ -212,10 +212,15 @@
   border-radius: 6px;
 }
 
-.video-player__video {
+.video-player__video-container {
   padding: 5px;
 }
+.video-player__video {
+  max-width: 100%;
+}
 
-.video-player__video-temp {
-  width: 100%;
+.user-comments__panel {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
